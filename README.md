@@ -38,7 +38,7 @@ Fer proves locals amb Docker et permet:
 
 ## Instruccions d'ús
 
-### 1. Construir la imatge
+### Construir la imatge
 
 ```bash
 git clone https://github.com/iesbillenguatges/lambda-demo.git
@@ -47,7 +47,7 @@ docker build -t lambda-python-demo .
 ```
 ### Dockerfile
 
-``
+```bash
 FROM public.ecr.aws/lambda/python:3.12
 
 COPY lambda_function.py ${LAMBDA_TASK_ROOT}
