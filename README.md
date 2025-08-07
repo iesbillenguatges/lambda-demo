@@ -6,7 +6,7 @@ Aquest projecte és una **demo mínima** d'una funció AWS Lambda escrita en **P
 
 ## Què són les funcions Lambda?
 
-Les **funcions Lambda** d'AWS són petites peces de codi que s'executen **sense necessitat de servidors propis**. Només s'executen quan són invocades per algun "esdeveniment" (ex: petició HTTP, pujada a S3, missatge en una cua, etc.).
+Les **funcions Lambda** d'AWS són xicotetes peces de codi que s'executen **sense necessitat de servidors propis**. Només s'executen quan són invocades per algun "esdeveniment" (ex: petició HTTP, pujada a S3, missatge en una cua, etc.).
 
 ### Característiques:
 - Sense servidors: no cal gestionar màquines ni desplegaments manuals.
